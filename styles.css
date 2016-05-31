@@ -1,0 +1,91 @@
+body {
+    font-family: Helvetica, Tahoma, Arial, Verdana;
+}
+div.leftbox {
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border: 10px solid #BBB;
+    margin: 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: maroon;
+    color: White;
+    font-family: Helvetica, Tahoma, Arial, Verdana;
+    font-weight: bold;
+    font-size: 18pt;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+}
+div.rightbox {
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border: 10px solid #BBB;
+    margin: 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: maroon;
+    color: White;
+    font-family: Helvetica, Tahoma, Arial, Verdana;
+    font-weight: bold;
+    font-size: 18pt;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+}
+div.parent {
+    width: 100%;
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+div.container {
+    border: 2px black solid;
+   -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    height: 200px;
+}
+span.titletext {
+    font-size: 16pt;
+    margin: 20px;
+    padding: 20px;
+}
+div.footer {
+    width: 100%;
+    font-size: 9pt;
+    text-align: center;
+    color: #BBB;
+}
+a.btnLinks:visited, a.btnLinks:link,a.btnLinks:active {
+    color: white;
+}
+a.btnLinks:hover {
+    text-decoration: none;
+    color: gold;
+}
+td.view {
+    width: 30%;
+}
+th.view {
+    border: 1px #BBB solid;
+}
+tr.view {
+    outline: thin solid black;
+}
+td.lookup {
+    width: 130px;
+    text-align: right;
+}
